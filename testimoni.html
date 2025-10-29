@@ -52,17 +52,52 @@ nav a:hover {
   border-radius: 5px;          /* optional nice hover effect */
 }
 </style>
-<section>
+<section class="testimoni-section">
   <h2>Testimoni Pelanggan</h2>
-  <blockquote>“Makanan sedap, servis cepat! Highly recommended!” – Puan A</blockquote>
-  <blockquote>“Servis profesional & makanan sedap. Akan repeat order!” – Encik B</blockquote>
+
+  <div class="testimonial">
+    <img src="malay-buffet-15700285.webp" alt="Puan A">
+    <blockquote>
+      “Makanan sedap, servis cepat! Highly recommended!” – Puan A
+    </blockquote>
+  </div>
+
+  <div class="testimonial">
+    <blockquote>
+      “Servis profesional & makanan sedap. Akan repeat order!” – Encik B
+    </blockquote>
+  </div>
 </section>
-<div class="testimonial">
-  <img src="malay-buffet-15700285.webp" alt="Puan A" style="width:50px; border-radius:50%;">
-  <blockquote>
-    “Makanan sedap, servis cepat! Highly recommended!” – Puan A
-  </blockquote>
-</div>
+
+<style>
+/* Center the whole section */
+.testimoni-section {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f9f9f9; /* optional: add soft background */
+}
+
+/* Style each testimonial */
+.testimonial {
+  margin-top: 20px;
+}
+
+/* Center and style image */
+.testimonial img {
+  width: 60px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 10px auto; /* center image */
+}
+
+/* Optional: style blockquote */
+.testimonial blockquote {
+  font-style: italic;
+  color: #333;
+  max-width: 500px;
+  margin: 0 auto; /* center text block */
+}
+</style>
 <footer>
   <p>Ikuti kami di: 
     <a href="https://instagram.com/akaunanda" target="_blank">Instagram</a> | 
