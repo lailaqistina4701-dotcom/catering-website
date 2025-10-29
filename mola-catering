@@ -1,0 +1,9 @@
+mola-catering/
+│
+├─ index.html         ← Halaman Utama
+├─ packages.html      ← Pakej
+├─ booth.html         ← Booth
+├─ contact.html       ← Tempahan / Hubungi
+├─ testimoni.html     ← Testimoni
+├─ style.css          ← Optional, untuk styling konsisten
+└─ images/            ← letak gambar seperti malay-buffet-15700285.webp
