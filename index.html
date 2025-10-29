@@ -33,21 +33,24 @@
 </nav>
 <style>
 nav {
-  background:#333;
-  overflow:hidden;
-  text-align:center; /* center links */
+  background: #333;
+  display: flex;               /* enable flexbox */
+  justify-content: center;     /* center all links horizontally */
+  padding: 14px 0;
+  flex-wrap: wrap;             /* optional: wrap on small screens */
 }
 
 nav a {
-  color:white;
-  padding:14px 20px;
-  text-decoration:none;
-  display:inline-block; /* inline-block for spacing */
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 nav a:hover {
-  background:#ddd;
-  color:black;
+  background: #ddd;
+  color: black;
+  border-radius: 5px;          /* optional nice hover effect */
 }
 </style>
 <section id="home">
