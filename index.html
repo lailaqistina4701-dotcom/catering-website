@@ -1,83 +1,153 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ms">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mola Catering Melaka</title>
-<style>
-  body { font-family: Arial; margin:0; padding:0; }
-  header { background:#ff6347; color:white; text-align:center; padding:20px; }
-  nav { background:#333; overflow:hidden; }
-  nav a { float:left; color:white; padding:14px 20px; text-decoration:none; }
-  nav a:hover { background:#ddd; color:black; }
-  section { padding:20px; }
-  .package { border:1px solid #ccc; padding:15px; margin:10px 0; border-radius:5px; }
-  footer { background:#333; color:white; text-align:center; padding:10px; }
-</style>
+<title>Booth & Catering Kreatif</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<!-- Floating WhatsApp -->
+<a href="https://wa.me/60123456789?text=Saya+nak+buat+tempahan" class="whatsapp-btn" target="_blank">💬 WhatsApp</a>
+
+<!-- Home / Hero Section -->
 <header>
-  <h1> Mola Catering Melaka</h1>
-  <a href="#contact" class="btn">Tempah Sekarang</a>
+  <div class="hero-content">
+    <h1>Booth & Catering Kreatif 🍔</h1>
+    <p>Makanan Sedap, Servis Mesra, Harga Berpatutan!</p>
+    <a href="#menu" class="btn">Tempah Sekarang</a>
+  </div>
+  <div class="slideshow">
+    <img src="images/hero1.jpg" class="slide active" alt="Makanan 1">
+    <img src="images/hero2.jpg" class="slide" alt="Makanan 2">
+    <img src="images/hero3.jpg" class="slide" alt="Booth 1">
+  </div>
 </header>
-<section id="hero">
-  <img src="malay-buffet-15700285.webp" alt="Makanan Sedap" style="width:100%; border-radius:8px;">
-  <h2 style="text-align:center; margin-top:10px;">Rasa Hebat, Servis Pantas</h2>
-</section>
-<nav>
-<a href="#packages">Pakej</a>
-<a href="booth.html">Booth</a>
-<a href="#contact">Tempahan</a>
-<a href="#testimoni">Testimoni</a>
-<a href="#contact">Hubungi Kami</a>
-</nav>
-<section id="packages">
-<h2> Pakej Kami</h2>
 
-<div class="package">
-<h3>Pakej Bajet - RM12/pax</h3>
-<p>Nasi Putih, Ayam Masak Merah, Sayur Campur, Buah Potong</p>
-</div>
-
-<div class="package">
-<h3>Pakej Standard - RM18/pax</h3>
-<p>Nasi Minyak, Ayam Madu, Daging Masak Kari, Sayur Dalca, Kuih Tradisional</p>
-</div>
-
-<div class="package">
-<h3>Pakej Premium - RM25/pax</h3>
-<p>Nasi Briyani, Kambing Kurma, Ayam Masak Butter, Udang Sambal, Puding & Buah-buahan</p>
-</div>
+<!-- About Us / Tentang Kami -->
+<section id="about">
+  <div class="container">
+    <h2>Tentang Kami</h2>
+    <p>Kami menyediakan booth & catering kreatif dengan bahan segar, harga berpatutan dan servis pantas. Pengalaman lebih 5 tahun dalam industri makanan. Misi kami adalah menyediakan makanan sedap dan servis mesra. Visi kami adalah menjadi pilihan utama pelanggan untuk semua acara.</p>
+    <div class="team">
+      <img src="images/team1.jpg" alt="Team">
+      <img src="images/team2.jpg" alt="Team">
+    </div>
+  </div>
 </section>
 
-<section id="contact">
-<h2>Tempah Sekarang</h2>
-<!-- Embed Google Form di bawah -->
-<iframe src="https://whatsform.com/BdutlS" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<!-- Services / Perkhidmatan -->
+<section id="services">
+  <div class="container">
+    <h2>Perkhidmatan</h2>
+    <div class="service-grid">
+      <div class="service-item">
+        <h3>Booth & Menu Harian</h3>
+        <p>Pelbagai menu daily untuk booth anda. Sesuai untuk pelanggan walk-in.</p>
+      </div>
+      <div class="service-item">
+        <h3>Catering & Pakej Harga</h3>
+        <p>Kami sediakan catering untuk majlis & event. Pakej fleksibel mengikut bajet anda.</p>
+      </div>
+      <div class="service-item">
+        <h3>Borang Tempahan Online</h3>
+        <p>Isi borang tempahan online untuk kemudahan pelanggan. Link ke WhatsApp / Form digital.</p>
+        <a href="https://wa.me/60123456789?text=Saya+nak+buat+tempahan" class="btn">Tempah Sekarang</a>
+      </div>
+    </div>
+  </div>
 </section>
+
+<!-- Menu / Popular Items -->
+<section id="menu">
+  <div class="container">
+    <h2>Menu Popular</h2>
+    <div class="menu-grid">
+      <div class="menu-item">
+        <img src="images/nasi-ayam.jpg" alt="Nasi Ayam">
+        <h3>Nasi Ayam</h3>
+        <p>RM10 / Hidangan</p>
+        <a href="https://wa.me/60123456789?text=Saya+nak+tempah+Nasi+Ayam" class="btn">Tempah</a>
+      </div>
+      <div class="menu-item">
+        <img src="images/burger.jpg" alt="Burger">
+        <h3>Burger Daging</h3>
+        <p>RM8 / Hidangan</p>
+        <a href="https://wa.me/60123456789?text=Saya+nak+tempah+Burger+Daging" class="btn">Tempah</a>
+      </div>
+      <div class="menu-item">
+        <img src="images/dessert.jpg" alt="Dessert">
+        <h3>Dessert Istimewa</h3>
+        <p>RM5 / Hidangan</p>
+        <a href="https://wa.me/60123456789?text=Saya+nak+tempah+Dessert+Istimewa" class="btn">Tempah</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Gallery / Galeri -->
+<section id="gallery">
+  <div class="container">
+    <h2>Galeri Booth & Makanan</h2>
+    <div class="gallery-grid">
+      <img src="images/food1.jpg" alt="Makanan 1">
+      <img src="images/food2.jpg" alt="Makanan 2">
+      <img src="images/booth1.jpg" alt="Booth 1">
+      <img src="images/booth2.jpg" alt="Booth 2">
+      <img src="images/food3.jpg" alt="Makanan 3">
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials / Testimoni -->
 <section id="testimoni">
-  <h2>Testimoni Pelanggan</h2>
-  <blockquote>
-    “Makanan sedap, servis cepat! Highly recommended!” – Puan A
-  </blockquote>
-  <blockquote>
-    “Servis profesional & makanan sedap. Akan repeat order!” – Encik B
-  </blockquote>
+  <div class="container">
+    <h2>Testimoni Pelanggan</h2>
+    <div class="testimonial-slider">
+      <div class="testimonial-item active">
+        <p>"Makanan sedap dan servis pantas! Sangat berbaloi tempah catering dengan mereka."</p>
+        <h4>- Ali, Kuala Lumpur</h4>
+      </div>
+      <div class="testimonial-item">
+        <p>"Booth di event sangat menarik, pelanggan ramai yang suka."</p>
+        <h4>- Siti, Selangor</h4>
+      </div>
+    </div>
+  </div>
 </section>
-  <div class="testimonial">
-  <img src="malay-buffet-15700285.webp" alt="Puan A" style="width:50px; border-radius:50%;">
-  <blockquote>
-    “Makanan sedap, servis cepat! Highly recommended!” – Puan A
-  </blockquote>
-</div>
+
+<!-- Location / Lokasi -->
+<section id="location">
+  <div class="container">
+    <h2>Lokasi Booth & Kedai</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <p>Waktu Operasi: Isnin - Ahad, 10:00 AM - 10:00 PM</p>
+  </div>
+</section>
+
+<!-- Contact / Hubungi Kami -->
+<section id="contact">
+  <div class="container">
+    <h2>Hubungi Kami</h2>
+    <p>WhatsApp: <a href="https://wa.me/60123456789">012-3456789</a></p>
+    <p>Email: info@boothcatering.com</p>
+    <p>Follow kami di:
+      <a href="#">Instagram</a> |
+      <a href="#">Facebook</a> |
+      <a href="#">TikTok</a>
+    </p>
+  </div>
+</section>
+
+<!-- Footer -->
 <footer>
-  <p>Ikuti kami di: 
-    <a href="https://instagram.com/akaunanda" target="_blank">Instagram</a> | 
-    <a href="https://facebook.com/akaunanda" target="_blank">Facebook</a>
-  </p>
-&copy; 2025 Mola Resources Sdn Bhd | WhatsApp: 012-3456789
+  <div class="container">
+    <p>© 2025 Booth & Catering Kreatif. Semua hak cipta terpelihara.</p>
+    <p><a href="#about">Tentang Kami</a> | <a href="#menu">Menu</a> | <a href="#contact">Hubungi</a></p>
+  </div>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
