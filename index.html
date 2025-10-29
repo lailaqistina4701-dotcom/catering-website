@@ -1,12 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mola Catering Melaka</title>
-<style>
-  body { font-family: Arial; margin:0; padding:0; }
-  <h1>Mola Catering Melaka</h1>
+ <h1> Mola Catering Melaka</h1>
   <div class="food-animation">
     <span>🍤</span>
     <span>🥘</span>
@@ -15,13 +10,30 @@
     <span>🥗</span>
     <span>🥪</span>
   </div>
-  header { background:#ff6347; color:white; text-align:center; padding:20px; }
-  nav { background:#333; overflow:hidden; }
-  nav a { float:left; color:white; padding:14px 20px; text-decoration:none; }
-  nav a:hover { background:#ddd; color:black; }
-  section { padding:20px; }
-  .package { border:1px solid #ccc; padding:15px; margin:10px 0; border-radius:5px; }
-  footer { background:#333; color:white; text-align:center; padding:10px; }
+  header { 
+   background:#ff6347;
+  color:white;
+  text-align:center;
+  padding:20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.food-animation {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  font-size: 2rem;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  animation: slide 10s linear infinite;
+}
+
+@keyframes slide {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
 </style>
 <!-- Tambah di dalam <head> -->
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
