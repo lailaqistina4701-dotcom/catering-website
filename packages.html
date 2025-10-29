@@ -4,25 +4,64 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mola Cafe Melaka</title>
+
 <style>
   body { font-family: Arial; margin:0; padding:0; }
   header { background:#ff6347; color:white; text-align:center; padding:20px; }
-  nav { background:#333; overflow:hidden; }
-  nav a { float:left; color:white; padding:14px 20px; text-decoration:none; }
-  nav a:hover { background:#ddd; color:black; }
   section { padding:20px; }
-  .package { border:1px solid #ccc; padding:15px; margin:10px 0; border-radius:5px; }
   footer { background:#333; color:white; text-align:center; padding:10px; }
+
+  /* Navbar styling */
+  nav {
+    background: #333;
+    display: flex;
+    justify-content: center;  /* center all links horizontally */
+    padding: 14px 0;
+    flex-wrap: wrap;           /* wrap on small screens */
+  }
+
+  nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    background: #ddd;
+    color: black;
+    border-radius: 5px;
+  }
+
+  /* Packages layout */
+  .packages-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .package {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    width: 250px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
 </style>
 </head>
 <body>
 
 <header>
-  <h1> Mola Cafe Melaka</h1>
+  <h1>Mola Cafe Melaka</h1>
 </header>
+
 <section id="hero">
   <h2 style="text-align:center; margin-top:10px;">Rasa Hebat, Servis Pantas</h2>
 </section>
+
 <nav>
   <a href="index.html">Halaman Utama</a>
   <a href="packages.html">Pakej</a>
@@ -30,28 +69,8 @@
   <a href="contact.html">Tempahan</a>
   <a href="testimoni.html">Testimoni</a>
 </nav>
-<style>
-nav {
-  background: #333;
-  display: flex;               /* enable flexbox */
-  justify-content: center;     /* center all links horizontally */
-  padding: 14px 0;
-  flex-wrap: wrap;             /* optional: wrap on small screens */
-}
 
-nav a {
-  color: white;
-  padding: 14px 20px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-nav a:hover {
-  background: #ddd;
-  color: black;
-  border-radius: 5px;          /* optional nice hover effect */
-}
-<!-- Packages Section -->
+<!-- ✅ Packages Section (moved outside of style tag) -->
 <section id="packages">
   <h2 style="text-align:center; margin-bottom:20px;">Pakej Kami</h2>
 
@@ -72,51 +91,13 @@ nav a:hover {
     </div>
   </div>
 </section>
-<style>
-.packages-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-}
 
-.package {
-  border: 1px solid #ccc;
-  padding: 15px;
-  border-radius: 5px;
-  width: 250px;
-  text-align: center;
-  background-color: #fff;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-</style>
-
-<style>
-/* Flex container for packages only */
-.packages-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-}
-
-/* Individual package boxes */
-.package {
-  border: 1px solid #ccc;
-  padding: 15px;
-  border-radius: 5px;
-  width: 250px;
-  text-align: center;
-  background-color: #fff;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-</style>
 <footer>
   <p>Ikuti kami di: 
     <a href="https://instagram.com/akaunanda" target="_blank">Instagram</a> | 
     <a href="https://facebook.com/akaunanda" target="_blank">Facebook</a>
   </p>
-&copy; 2025 Mola Resources Sdn Bhd | WhatsApp: 012-3456789
+  &copy; 2025 Mola Resources Sdn Bhd | WhatsApp: 012-3456789
 </footer>
 
 </body>
