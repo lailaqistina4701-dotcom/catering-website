@@ -52,45 +52,45 @@ nav a:hover {
   color: black;
   border-radius: 5px;          /* optional nice hover effect */
 }
-</style>
 <section id="packages">
-  <h2 style="text-align:center;">Pakej Kami</h2>
+  <h2 style="text-align:center; margin-bottom:20px;">Pakej Kami</h2>
 
-  <div class="package">
-    <h3>Pakej Bajet - RM12/pax</h3>
-    <p>Nasi Putih, Ayam Masak Merah, Sayur Campur, Buah Potong</p>
-  </div>
+  <div class="packages-container">
+    <div class="package">
+      <h3>Pakej Bajet - RM12/pax</h3>
+      <p>Nasi Putih, Ayam Masak Merah, Sayur Campur, Buah Potong</p>
+    </div>
 
-  <div class="package">
-    <h3>Pakej Standard - RM18/pax</h3>
-    <p>Nasi Minyak, Ayam Madu, Daging Masak Kari, Sayur Dalca, Kuih Tradisional</p>
-  </div>
+    <div class="package">
+      <h3>Pakej Standard - RM18/pax</h3>
+      <p>Nasi Minyak, Ayam Madu, Daging Masak Kari, Sayur Dalca, Kuih Tradisional</p>
+    </div>
 
-  <div class="package">
-    <h3>Pakej Premium - RM25/pax</h3>
-    <p>Nasi Briyani, Kambing Kurma, Ayam Masak Butter, Udang Sambal, Puding & Buah-buahan</p>
+    <div class="package">
+      <h3>Pakej Premium - RM25/pax</h3>
+      <p>Nasi Briyani, Kambing Kurma, Ayam Masak Butter, Udang Sambal, Puding & Buah-buahan</p>
+    </div>
   </div>
 </section>
 
 <style>
-/* Center the packages container */
-#packages {
-  display: flex;              /* use flexbox */
-  flex-wrap: wrap;            /* wrap boxes on small screens */
-  justify-content: center;    /* center horizontally */
-  gap: 20px;                  /* space between boxes */
-  padding: 20px;
+/* Flex container for packages only */
+.packages-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
 
-/* Individual package box styling */
+/* Individual package boxes */
 .package {
   border: 1px solid #ccc;
   padding: 15px;
   border-radius: 5px;
-  width: 250px;               /* fixed width for uniform boxes */
-  text-align: center;         /* center text inside the box */
-  background-color: #fff;     /* optional white background */
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* subtle shadow */
+  width: 250px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 </style>
 <footer>
